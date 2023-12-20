@@ -8,6 +8,7 @@ apply from: '../dependencies.gradle'
 
 android {
     compileSdkVersion versions.compileSdk
+    namespace 'com.android.sample.app'
 
     defaultConfig {
         applicationId "com.android.sample.app"
@@ -37,6 +38,7 @@ android {
 
     buildFeatures {
         compose true
+        buildConfig = true
     }
     composeOptions {
         kotlinCompilerExtensionVersion versions.compose

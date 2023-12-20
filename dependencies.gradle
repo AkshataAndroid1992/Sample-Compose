@@ -1,14 +1,15 @@
 ext.versions = [
-        minSdk           : 21,
-        compileSdk       : 31,
+        minSdk           : 26,
+        compileSdk       : 33,
         versionCode      : 1,
         versionName      : '1.0.0',
 
         // gradle plugins
-        gradleBuildTool  : '7.0.3',
+        gradleBuildTool  : '8.0.2',
 
         // kotlin
-        kotlin           : '1.6.10',
+        kotlin           : '1.6.21',
+
 
         // support library
         appCompat        : '1.4.1',
@@ -16,13 +17,13 @@ ext.versions = [
 
         // architecture components
         roomVersion      : '2.4.1',
-        navigation       : '2.4.1',
+        navigation       : '2.5.0',
 
         // di
         hilt      : '2.40',
 
         // Compose
-        compose          : '1.1.0',
+        compose          : '1.2.0-beta01',
         activityCompose  : '1.4.0',
         accompanist      : '0.23.0',
 
